@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iPhone 16</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #fcfcfc;
+      
+    }
+    .hero {
+      background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+      background-size: 180% 180%;
+      animation: gradient-animation 18s ease infinite;
+      padding: 120px 0;
+      text-align: center;
+    }
+    .footer {
+      background-color: #f8f9fa;
+      padding: 40px 0;
+      text-align: center;
+      background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+      background-size: 180% 180%;
+      animation: gradient-animation 18s ease infinite;
+    }
+
+    @keyframes gradient-animation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <!-- Navbar -->    
+<nav class="navbar navbar-expand-md navbar-light bg-light mb-4">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="">Iphone 16</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#features-environment">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#specs">Specifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+
+
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>iPhone 16</h1>
+      <p id="Bold">The future of smartphones is here.</p>
+      <a id="Free" href="#pricing" class="btn btn-dark btn-lg">Buy Now</a>
+    </div>
+  </section>
+
+  <button onclick="changeBg()">background</button>
+  <button onclick='document.getElementById("Bold").style.fontWeight="Bold"'>bold</button>
+  <button onclick='document.getElementById("Free").innerHTML="Free"'>text</button>
+
+
+
+
+  
+  <!-- Carousel -->
+
+  <main>
+  
+    <div class="container marketing py-5">
+  
+      <!-- START THE FEATURETTES -->
+  
+  
+      <div class="row featurette py-5">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Apple Intellignence. <span class="text-body-secondary">AI opening possibilities.</span></h2>
+          <p class="lead">iPhone 16 is built for Apple Intelligence, the personal intelligence system that helps you write, express yourself, and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="intellij.jpg" alt="" width="500" height="500" class="featurette-image img-fluid mx-auto">
+        </div>
+      </div>
+  
+
+  
+      <div class="row featurette py-5">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">New camera system. <span class="text-body-secondary">Go to great lengths to get the perfect shot.</span></h2>
+          <p class="lead">The versatile new iPhone 16 camera system captures beautiful photos — from up close or far away. The two-in-one 48MP Fusion camera lets you take stunning super-high-resolution images, or zoom in with the 2x optical-quality Telephoto. The Ultra Wide camera shoots extreme close-up macro photos or wider, more expansive pictures. Altogether, it’s like having four lenses in your pocket. And with spatial capture, you can even take photos and videos in 3D, which you can watch with Apple Vision Pro.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="camera.jpg" alt="" width="500" height="500" class="featurette-image img-fluid mx-auto">
+        </div>
+      </div>
+
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Audio Mix. <span class="text-body-secondary">Make your voice heard.</span></h2>
+          <p class="lead">Powered by advanced intelligence and Spatial Audio capture, Audio Mix lets you adjust the way voices sound in your videos using three different voice options. Want to decrease background sound? Or just focus on the voices that are in frame? Simply select the mix and adjust intensity to get the sound you want after video capture.
+            </p>
+        </div>
+        <div class="col-md-5">
+          <img src="audio.jpg" alt="" width="500" height="500" class="featurette-image img-fluid mx-auto">
+        </div>
+      </div>
+  
+      <!-- /END THE FEATURETTES -->
+
+
+
+  </main>
+  
+      <!-- /END THE FEATURETTES -->
+
+    <!-- Features Section -->
+    <section id="features-environment" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Designed to make a difference.</h2>
+        <h3 class="text-left mb-4">Environment</h3>
+        <div class="row icons-container">
+          <div class="col-md-4 feature-item">
+            <img src="earth.svg" alt="">
+            <p>All Apple data centers — including those that power Apple Intelligence — run on 100% renewable energy.</p>
+          </div>
+          <div class="col-md-4 feature-item">
+            <img src="recycle.svg" alt="">
+            <p>iPhone 16 uses more recycled metals than ever: 95% recycled lithium in the battery. 100% recycled gold in the plating of the USB-C connector and camera wires. 100% recycled copper foil in the MagSafe inductive charger.</p>
+          </div>
+          <div class="col-md-4 feature-item">
+            <img src="tree.svg" alt="">
+            <p>The packaging for iPhone 16 is 100% fiber-based for the first time. And it's thinner, which reduces the carbon impact for shipping.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features-privacy" class="py-5">
+      <div class="container">
+        <h3 class="text-left mb-4">Privacy</h3>
+        <div class="row icons-container">
+          <div class="col-md-4 feature-item">
+            <img src="privacy1.svg" alt="">
+            <p>Apple Intelligence protects your privacy at every step. With on-device processing and Private Cloud Compute, no one but you can access your data — not even Apple.</p>
+          </div>
+          <div class="col-md-4 feature-item">
+            <img src="privacy2.svg" alt="">
+            <p>The new Passwords app makes it even easier to access account passwords, passkeys, Wi-Fi passwords, two-factor authentication codes, and more. It stores them securely and syncs across your devices with end-to-end encryption.</p>
+          </div>
+          <div class="col-md-4 feature-item">
+            <img src="privacy3.svg" alt="">
+            <p>You can also control which contacts to share with an app, rather than giving it access to all your contacts. And you can choose to share more contacts over time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features-accessiblity" class="py-5">
+      <div class="container">
+        <h3 class="text-left mb-4">Accessiblity</h3>
+        <div class="row icons-container">
+          <div class="col-md-4 feature-item">
+            <img src="access1.svg" alt="">
+            <p> Eye Tracking makes it possible to navigate your iPhone and use your favorite apps just by moving your eyes, thanks to the power of machine learning and the front-facing camera.</p>
+          </div>
+          <div class="col-md-4 feature-item">
+            <img src="access2.svg" alt="">
+            <p> Music Haptics matches the iPhone Taptic Engine with the rhythm of songs. So people who are deaf or hard of hearing can enjoy the Apple Music catalog in a whole new way.</p>
+          </div>
+          <div class="col-md-4 feature-item">
+            <img src="access3.svg" alt="">
+            <p> Vocal Shortcuts helps people with severe atypical speech record sounds that trigger specific actions on iPhone — set a timer, take a screenshot, scroll up and down, and more. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Specifications Section -->
+  <section id="specs" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Specifications</h2>
+      <div>
+        <h5>Display</h5>
+        <p>6.7-inch Super Retina XDR display with ProMotion.</p>
+      </div>
+      <div>
+        <h5>Camera</h5>
+        <p>108 MP triple-lens system with LiDAR scanner.</p>
+      </div>
+      <div>
+        <h5>Battery</h5>
+        <p>All-day battery life with 5G connectivity.</p>
+      </div>
+      <div>
+        <h5>Chip</h5>
+        <p>A18 chip
+          New 6‑core CPU with 2 performance and 4 efficiency cores
+          New 5‑core GPU
+          New 16‑core Neural Engine</p>
+      </div>
+      <div>
+        <h5>Face ID</h5>
+        <p>Enabled by TrueDepth camera for facial recognition
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing">
+    <div class="container py-3">
+      <header>
+        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+            <span class="fs-4"></span>
+          </a>
+        </div>
+
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h2 class="display-4 fw-normal text-body-emphasis"></h2>
+          <p class="fs-5 text-body-secondary"></p>
+        </div>
+      </header>
+
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Iphone 16</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$900<small class="text-body-secondary fw-light"></small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Capacity 256GB</li>
+                  <li>Display 6.7"</li>
+                  <li>108 MP triple-lens</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-dark">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Iphone 16 Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$1000<small class="text-body-secondary fw-light"></small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Capacity 512GB</li>
+                  <li>Display 6.7"</li>
+                  <li>108 MP triple-lens</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-dark">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-dark">
+              <div class="card-header py-3 text-bg-dark border-dark">
+                <h4 class="my-0 fw-normal">Iphone 16 Pro Max</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$1100<small class="text-body-secondary fw-light"></small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Capacity 1 TB</li>
+                  <li>Display 6.9"</li>
+                  <li>124 MP triple-lens</li>
+                </ul> 
+                <button type="button" class="w-100 btn btn-lg btn-dark">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+  </section>
+
+  <!-- Footer-->
+  <div class="footer">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#top" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#features-environment" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#specs" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 iPhone 16</p>
+    </footer>
+  </div>
+
+  <br/>
+  <br/>
+  <br/>
+
+
+  <!-- To do list -->
+  <div class="container">
+    <h1>To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Enter a new task...">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+</div>
+
+<br/>
+<br/>
+<br/>
+
+  <!-- Number sorting tool -->
+
+  <div class="container">  
+    <h1>Number sorting tool</h1>
+
+    <p>Enter numbers separated by commas here: <input type="text" id="inputArray"></p>
+    <button onclick="sortASC()">Sort ascending</button>
+    <button onclick="sortDESC()">Sort descending</button>
+    <p id="SoResult"></p>
+  </div>
+
+  <br/>
+  <br/>
+  <br/>
+
+  <!-- Calculator -->
+
+  <div class="container">
+
+    <h1>Calculator</h1>
+  
+    <p>Enter first number <input type="number" id="num1"</p>
+    <p>Enter second number <input type="number" id="num2"</p>
+
+    <button onclick="plus()">Plus</button>
+    <button onclick="minus()">Minus</button>
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button>
+
+    <p id="CaResult"></p>
+
+  </div>
+
+  <br/>
+  <br/>
+  <br/>
+
+  <!-- Tax calculator -->
+
+  <div class="container">
+
+    <h1>Tax calculator</h1>
+
+    <p>Enter price <input type="number" id="price"</p>
+    <button onclick="tax()">Calculate tax</button>
+
+    <p>Taxes: </p>
+
+    <p id="TResult"></p>
+
+  </div>
+  
+  
+  <script src="index.js"></script>
+
+</body>
+</html>
